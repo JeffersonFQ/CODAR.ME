@@ -1,0 +1,34 @@
+body {
+    background-color: #000000;
+    color: #5B6B38;
+    font-size: large;
+    /* background-image: url(../Imput/img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center; */
+}
+
+.title {
+    background: #5B6B38;
+    border-radius: 50px;
+    color: #000000;
+    padding: 15px;
+}
+
+.link {
+    color: #26d93b;  
+}
+
+.lista {
+    display: inline-block;
+    background: #5B6B38;
+    color: #000000;
+    padding: 5px 25px;
+}
+
+img {
+    display: block;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #5B6B38;
+}
