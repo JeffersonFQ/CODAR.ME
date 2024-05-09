@@ -1,34 +1,102 @@
+/* 
+Preto     #000000
+Branco    #FFFFFF
+Cinza     #E5E5E5
+Azul      #14213D
+Amarelo   #FCA311 
+*/
+
 body {
-    background-color: #000000;
-    color: #5B6B38;
+    background-color: #E5E5E5;
+    color: #14213D;
     font-size: large;
-    /* background-image: url(../Imput/img/fundo.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center center; */
+    height: 100%;
+    min-width: 700px;
 }
 
-.title {
-    background: #5B6B38;
-    border-radius: 50px;
-    color: #000000;
-    padding: 15px;
+/* Fim Body-------------------------------------------------------------------------------------------------------------------------------------*/
+/* Inicio Header--------------------------------------------------------------------------------------------------------------------------------*/
+
+.menu-header {
+    color: #14213D;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 30px;
 }
 
-.link {
-    color: #26d93b;  
+.menu-header h3 {
+    padding-left: 10px;
+    padding-right: 50px;
 }
 
-.lista {
-    display: inline-block;
-    background: #5B6B38;
-    color: #000000;
-    padding: 5px 25px;
+.main-header{
+    background-color: #df2828;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
 }
 
-img {
+.search-header {
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+}
+
+/* Fim Header-----------------------------------------------------------------------------------------------------------------------------------*/
+/* Inicio Section-------------------------------------------------------------------------------------------------------------------------------*/
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.sidebar{
+    padding: 0 8px;
+    width: 15%;
+    background-color: #14213D;
+    color: #FCA311;
+    height: 92%;
+}
+
+.sidebar img {
+    width: 100px;
+    border-radius: 100%;
+    border-style: double;
+    border-color: #FCA311;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sidebar i {
+    width: 20px;
+    height: 10px;
+}
+
+.sidebar h3{
     display: block;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: #5B6B38;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    margin:8px 5px;
+    font-size: 14px;
+    color: #FCA311;
+}
+
+.sidebar a > svg{
+    color: #FCA311;
+}
+
+.content{
+    width: 85%;
+    height: 100%;
+    padding: 10px;
+
 }
