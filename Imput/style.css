@@ -10,7 +10,8 @@ body {
     background-color: #E5E5E5;
     color: #14213D;
     font-size: large;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
     /* min-width: 700px; */
 }
 
@@ -19,7 +20,7 @@ body {
 
 .main-header{
     background-color: #df2828;
-    height: 6%;
+    height: 7vh;
     display: flex;
     justify-content: space-between;
 }
@@ -31,30 +32,43 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 2.5vw;
-    width: 18%;
+    width: 18vw;
 }
 
-.menu-header p {
-    padding-left: 10px;
+.menu-header a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .search-header {
+    position: absolute;
+    left: 18.5%;
+    top: 0.8%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    border:solid 1px;
+    border:solid 2px;
     border-radius:15px;
-    width:200px;
+    padding:8px 6px 5px 0px;
 
 }
 
 #txtBusca{
-    margin-top: 10px;
-    padding:10px;
+    padding-left: 6px;
+    background: none;   
     border:none;
+    outline: none;color: #E5E5E5;
+    font-size: 16px;
+    line-height: 40px;
     border-radius:20px;
     height:20px;
-    width:30vw;
+    width:25vw;
+    width: 0;
+  }
+
+  .search-header:hover > #txtBusca{
+    width: 150px;
   }
 
 .config-header{
@@ -72,10 +86,10 @@ body {
 
 .sidebar{
     padding: 0 8px;
-    width: 18%;
+    width: 18vw;
     background-color: #f0f1f3;
     color: #FCA311;
-    height: 94%;
+    height: 94vh;
 }
 
 .sidebar img {
@@ -112,8 +126,8 @@ body {
 }
 
 .content{
-    width: 84%;
-    height: 100%;
+    width: 84vw;
+    height: 100vh;
     padding: 10px;
 
 }
